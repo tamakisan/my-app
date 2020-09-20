@@ -101,7 +101,7 @@ function updateProgressValue() {
 function formatTime(seconds) {
     let minutes = Math.floor(seconds / 60)
 
-    let sec = Math.r(seconds - minutes * 60)
+    let sec = Math.floor(seconds - minutes * 60)
     if (sec < 10) {
         sec = `0${sec}`
     }
