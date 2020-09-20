@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="background" src="./assets/cover/artwork for music(Your name).jpg" alt="">
+    <audio id="song" src="./assets/music/kimi_no_na_wa_nandemonaiya_kamishiraishi_mone_maxone_remix_K-x6BXMByoK-gucZeNsy.mp3"></audio>
+
+    <div class="contaner">
+        <div class="box"></div>
+
+        <img src="./assets/cover/artwork for music(Your name).jpg" alt="" id="artwrok">
+        <img src="./assets/icon/icons8-play-50.png" alt="" id="playpause" onclick="playPause()">
+        <img src="./assets/icon/icons8-fast-forward-50.png" alt="" id="makesong">
+        <img src="./assets/icon/icons8-rewind-button-round-48.png" alt="" id="rewindtime">
+
+        <div class="song-artist">Radwimps</div>
+        <div class="song-title">Nandemonaiya</div>
+
+        <input type="range" min="0" max="" value="0" id="progress-bar">
+        <div class="currentTime"></div>
+        <div class="durationTime"></div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
